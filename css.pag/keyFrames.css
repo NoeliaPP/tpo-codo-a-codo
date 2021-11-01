@@ -1,0 +1,43 @@
+@keyframes eslogan_keyframes_caer{
+    from{
+        opacity: 0;
+        top: -200px;
+    }
+    to{
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes eslogan_keyframes_cae{
+    from{
+        opacity: 0;
+        top: -200px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+
+@keyframes eslogan_keyframes_subir{
+    from{
+        opacity: 0;
+        bottom: -200px;
+    }
+    to{
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+@-webkit-keyframes eslogan_keyframes_subi{
+    from{
+        opacity: 0;
+        bottom: -200px;
+    }
+    to{
+        opacity: 1;
+        bottom: 0;
+    }
+}

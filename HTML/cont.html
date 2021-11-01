@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css.pag/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Locuras Party Animaciones</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navegador">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="event.html"></a> Eventos</li>
+                <li><a href="juego.html">Juegoteca</a></li>
+                <li>Contáctenos</li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="para-todas-las-paginas">
+
+    <h1 id="titulo-pag">Consulta por la disponibilidad</h1>
+
+    <div class="area-de-consulta">
+
+        <div class="formulario">
+            <form action="">
+                <div class="form-item">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre">                        
+                </div>
+                    
+                <div class="form-item">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">                        
+                </div>
+                      
+                <div class="form-item">
+                    <label for="lugar">Lugar del evento</label>
+                    <input type="text" id="lugar" name="lugar">                        
+                </div>
+                      
+                <div class="form-item">
+                    <label for="hora">Horario</label> 
+                    <input type="text" id="hora" name="hora" size="2" maxlength="2" >                      
+                </div>
+                      
+                <div class="form-item">
+                    <label for="fecha">Fecha del evento:</label>
+                    <input type="date" id="fecha" name="fecha"  >                       
+                </div>
+                      
+                <div id="nota">
+                    <legend>Para hacer una consulta completa en el recuadro</legend>
+                    <textarea name="comentario"rows="5"cols="40">Escribetuconsulta...</textarea>
+                </div>
+                
+                <input id="boton" type="enviar"  onclick=" return enviarFormulario();" value = "Enviar">
+                    
+            </form>
+        </div>
+    
+        <div class="mapa">
+            <h2>Donde estamos</h2>
+            <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=es&amp;q=Avenida%20pueyrredon%20457+(Donde%20estamos)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/marcar-radio-circulo-mapa/">Marcar radio en el mapa</a></iframe></div>
+        </div>
+    
+    </div>
+       
+</section>
+
+<footer>
+    <div class="cont-footer">
+        <div>
+            <h4>Encontranos en nuestras redes</h4>
+            <ul>
+                <li><a href="https://www.facebook.com/Locuras-Party-animaciones-629026080891328"target="_blank"><i class="fab fa-facebook" >  Facebook</i></a> </li>
+                <li><a href="https://www.instagram.com/locuras.party.animaciones/?hl=es"target="_blank"><i class="fab fa-instagram" >  Instagram</i></a> </li>   
+            </ul>
+        </div>
+    
+        <div>
+            <h4>Medios de pagos</h4>
+            <ul>
+                <li><i class="fab fa-cc-mastercard">  Mercado Pago</i></li>
+                <li><i class="far fa-money-bill-wave">  Efectivo</i></li>
+            </ul>
+        </div>
+    
+        <div>
+            <h4>Comunicate con nosotros</h4>
+            <ul>
+                <li><i class="fas fa-at">  fravalagus@gmail.com</i> </li>
+                <li><a href="https://api.whatsapp.com/send?phone=01139309510"><i class="fab fa-whatsapp" target="_blank">  WhatsApp</i></a></li>   
+            </ul>
+        </div>
+    
+    </div>
+    
+</footer>
+
+<script src="../javaScript/javaS.js"></script>
+
+</body>
+</html>

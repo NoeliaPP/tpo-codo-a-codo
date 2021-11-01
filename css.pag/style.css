@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{          
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;  
+    background-image: url(../image/fondo.jpeg);
+    font-family: martel;    
+}
+
+.para-todas-las-paginas{
+    padding-top: 70px;  
+   
+}
+
+/*--- navegador --- */
+
+.navegador{
+    position: fixed; 
+    background-color: rgba(226, 245, 233, 0.9); 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    border-bottom: 2px solid rgb(7, 7, 7);
+}
+
+.navegador ul li{     
+    display: inline-block;
+    margin-right: 5vw;
+}
+
+.navegador ul li a{    
+    display: inline-block;
+    padding: 5px;
+    background-color: transparent !important; 
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.navegador ul li a:link{
+    color: rgb(10, 10, 10);
+}
+
+.navegador ul li a:visited{
+    color: rgb(5, 5, 5);
+}
+
+.navegador ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.navegador ul li a:active{
+    color: rgb(5, 5, 5);
+}
+
+/*--- fin navegador ---*/
+
+/*--- index ---*/
+
+#logo{  
+    margin: auto;
+    height: 100%;
+    background-image: url(../image/logo.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.eslogan{
+   display: flex;
+   position: relative;   
+   width: 70%;
+   text-align: center;    
+   color: rgb(255, 255, 255);
+   margin: auto;
+   font-size: 4vw;
+   font-weight:bold;  
+   padding: 10%;    
+}
+
+.cont-eslogan{
+    flex: auto;
+    padding: 2%;
+    width: 70%;
+    position: relative;
+    margin: auto;    
+    margin-bottom: 4%;
+}
+
+.eslogan ul li {
+    margin: auto;
+    position: relative;
+    display:inline-block;
+}
+
+.primero{
+    opacity: 0;
+    animation: eslogan_keyframes_cae 2s;
+    -webkit-animation: eslogan_keyframes_cae 2s;
+    animation-fill-mode: forwards;
+}
+
+.segundo{
+    opacity: 0;
+    animation: eslogan_keyframes_subi 2s;
+    -webkit-animation: eslogan_keyframes_subi 2s;   
+    animation-fill-mode: forwards;
+}
+
+.cont-index{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    position: relative;   
+    padding: 20px;    
+    width: 90%;
+    text-align: center;
+    background-color: rgb(139, 165, 167);
+    margin:auto;
+    align-items: center;
+    margin-left: 5%;
+    padding: 0;
+    box-shadow: 16px 10px 10px 18px rgb(3, 3, 3, 0.8);
+    margin-bottom: 2%;
+}
+
+.titulo-index h1{
+    font-size: 5vw;
+    color: rgb(70, 68, 68);
+    padding: 5%;
+}
+
+.titulo-index h2{
+    font-size: 3vw;
+    color: rgb(216, 201, 211);
+}
+
+.texto-index{
+    width: 95%;
+    margin-bottom: 0.5em;
+    margin-left: 2.5%;
+    margin-top: 0.5em;
+    background-color: rgb(190, 204, 206);
+}
+.texto-index p {
+    font-size: 3vh;
+    color: rgb(75, 74, 74);
+    padding: 5%;
+    font-weight:bold; 
+}
+
+.texto-index a{
+    text-decoration: none;
+    color:rgb(36, 8, 102);
+    text-decoration: none;    
+}
+.texto-index a:hover{
+    background-color:rgb(108, 109, 107);
+    color: rgb(255, 255, 255);
+}
+
+.quienes-somos{
+    flex-wrap: wrap;
+    margin: auto;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 2vw;
+}
+
+.quienes-somos img{
+    width: 70%;
+    border: 1px solid black;
+    box-shadow: 20px 17px 10px rgb(15, 15, 15, 0.8); 
+    margin: auto;
+    margin-bottom: 2px;
+    margin-top: 5px;
+
+}
+
+/*--- eventos y juegoteca ---*/
+
+.galeria{
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;   
+    margin: auto;
+    text-align: center;    
+} 
+
+#titulo-pag{
+    color: cornsilk;
+    font-size: 4vw;
+    font-family: lobster;
+    margin: auto;
+    width: 100%;
+    text-align: center;    
+}
+
+.fotografias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.foto{
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 2em;
+    width: 30%;
+    border: 2px solid rgb(71, 71, 71);
+    box-shadow: 20px 17px 10px rgb(15, 15, 15, 0.8);    
+}
+
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+    background-size: cover;    
+}
+
+.contenido_foto {
+    padding: 1.5em;
+    background-color: rgb(139, 165, 167);
+    color: rgb(247, 247, 252);
+    text-align: center;    
+}
+
+.contenido_foto h2 {
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+#descrip{
+    font-size: 1.1vw;
+    margin: auto;
+    color: rgb(252, 251, 250);
+    background-color: rgb(83, 83, 82, 0.5);
+    width: 100%;
+    margin-bottom: -18px;
+    margin-top: -1px;
+    border: 0.5px solid rgb(255, 254, 254);
+    box-shadow: 20px 17px 10px rgb(15, 15, 15, 0.8);
+}
+
+.galeria p{
+    margin: auto;
+    color: rgb(252, 251, 250);
+    background-color: rgb(83, 83, 82, 0.5);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 0.5px solid rgb(255, 254, 254);
+}
+
+/*--- fin eventos y juegoteca ---*/
+
+/*--- contactenos ---*/
+
+.area-de-consulta{    
+    position: relative;
+    margin: auto;
+    width: 90%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.formulario{
+    
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 50%;
+    color: white;
+    float: left;
+    margin-left: 10px;
+    border: 1px solid white;
+    background-color: rgb(139, 165, 167);
+    box-shadow: 20px 17px 10px rgb(15, 15, 15, 0.8);
+    margin-left: 10%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding: 10px;
+    margin-top: 1%;
+}
+
+.form-item{
+    width: 100%;
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 0.5px solid black;
+    flex-direction: column;
+    font-size: 1vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+
+.form-item label{
+    margin-left: 2%;
+}
+
+.form-item input{
+    margin-left: 2%;
+
+}
+
+#nombre{
+    width: 70%;
+}
+
+#email{
+    width: 70%;
+}
+
+#lugar{
+    width: 70%;
+}
+
+#hora{
+    width: 35%;
+}
+
+#fecha{
+    width: 35%;
+} 
+#nota textarea{
+    margin-left: 2%;
+    width: 95%;
+    border: 0.5px solid black;
+}
+
+#nota{    
+    margin-bottom: 2%;
+    font-size: 1em;
+    border: 0.5px solid black;
+}
+
+#nota legend{
+    margin-left: 2%;
+    font-size: 1vw;
+}
+
+#boton{    
+    margin: auto;
+    text-align: center;
+    border: 0.5px solid black;
+    box-shadow: 4px 4px 4px black;
+    width: 20%;
+}
+
+#boton:hover{    
+    background-color: rgb(171, 171, 173);
+    font-weight: bold;
+}
+
+.mapa h2{
+    color: white;
+    float: right;
+    position: relative;    
+}
+
+iframe{
+    width: 100%;
+    float: right;
+    position: relative;   
+    border: 2px solid black;
+    box-shadow:20px 17px 10px rgb(15, 15, 15, 0.8);
+}
+
+/*---fin contactenos ---*/
+
+/*--- footer ---*/
+
+footer{
+    border-top: 2px solid rgb(3, 3, 3);
+    width: 100%;
+    background-color: rgb(121, 89, 236) ;
+    margin-bottom: 0;    
+}
+
+.cont-footer{       
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto;
+    margin-top: 1%;    
+}
+
+.cont-footer h4{ 
+    color: rgb(59, 59, 59);
+    font-size: 15px;
+}
+
+.cont-footer ul {
+    color: rgb(59, 59, 59);
+    list-style-type: none;
+    padding-left: -3px;
+}
+  
+.cont-footer li {
+    position: relative;
+    padding-left: 20px;
+}
+  
+.cont-footer li:before {
+    position: absolute;
+    top: 0;    
+    font-family:  martel;
+}
+
+.cont-footer a{
+    color:rgb(59, 59, 59); 
+}
+
+/*--- fin footer ---*/
