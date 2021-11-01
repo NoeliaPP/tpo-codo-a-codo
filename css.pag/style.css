@@ -238,7 +238,7 @@ img {
 }
 
 .contenido_foto h2 {
-    font-size: 100%;
+    font-size: 2.5vw;
     text-align: center;
     margin-top: 0;
     margin-bottom: .5em;
@@ -246,7 +246,7 @@ img {
 }
 
 #descrip{
-    font-size: 1.5em;
+    font-size: 1.1vw;
     margin: auto;
     color: rgb(252, 251, 250);
     background-color: rgb(83, 83, 82, 0.5);
