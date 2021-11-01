@@ -9,7 +9,7 @@ body{
     background-position: center;
     background-repeat: repeat;  
     background-image: url(../image/fondo.jpeg);
-    font-family: martel;    
+    font-family: 'martel';    
 }
 
 .para-todas-las-paginas{
@@ -80,7 +80,7 @@ body{
    text-align: center;    
    color: rgb(255, 255, 255);
    margin: auto;
-   font-size: 4vw;
+   font-size: 40px;
    font-weight:bold;  
    padding: 10%;    
 }
@@ -132,13 +132,13 @@ body{
 }
 
 .titulo-index h1{
-    font-size: 5vw;
+    font-size: 6vw;
     color: rgb(70, 68, 68);
     padding: 5%;
 }
 
 .titulo-index h2{
-    font-size: 3vw;
+    font-size: 5vw;
     color: rgb(216, 201, 211);
 }
 
@@ -173,7 +173,7 @@ body{
     text-align: center;
     margin-top: 25px;
     margin-bottom: 15px;
-    font-size: 2vw;
+    font-size: 26px;
 }
 
 .quienes-somos img{
@@ -200,11 +200,11 @@ body{
 
 #titulo-pag{
     color: cornsilk;
-    font-size: 4vw;
-    font-family: lobster;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;;
     margin: auto;
     width: 100%;
-    text-align: center;    
+    text-align: 'Montserrat', sans-serif;;    
 }
 
 .fotografias{
@@ -238,7 +238,7 @@ img {
 }
 
 .contenido_foto h2 {
-    font-size: 2vw;
+    font-size: 100%;
     text-align: center;
     margin-top: 0;
     margin-bottom: .5em;
@@ -246,7 +246,7 @@ img {
 }
 
 #descrip{
-    font-size: 1.1vw;
+    font-size: 1.5em;
     margin: auto;
     color: rgb(252, 251, 250);
     background-color: rgb(83, 83, 82, 0.5);
@@ -315,7 +315,6 @@ form{
     margin-bottom: 1px;
     border: 0.5px solid black;
     flex-direction: column;
-    font-size: 1vw;
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: nowrap;
@@ -443,3 +442,4 @@ footer{
 }
 
 /*--- fin footer ---*/
+
