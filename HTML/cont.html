@@ -37,27 +37,27 @@
             <form action="">
                 <div class="form-item">
                         <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre">                        
+                        <input type="text" id="nombre" required>                        
                 </div>
                     
                 <div class="form-item">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email">                        
+                    <input type="email" id="email" name="email" required>                        
                 </div>
                       
                 <div class="form-item">
                     <label for="lugar">Lugar del evento</label>
-                    <input type="text" id="lugar" name="lugar">                        
+                    <input type="text" id="lugar" name="lugar" required>                        
                 </div>
                       
                 <div class="form-item">
                     <label for="hora">Horario</label> 
-                    <input type="text" id="hora" name="hora" size="2" maxlength="2" >                      
+                    <input type="text" id="hora" name="hora" size="2" maxlength="2" required>                      
                 </div>
                       
                 <div class="form-item">
                     <label for="fecha">Fecha del evento:</label>
-                    <input type="date" id="fecha" name="fecha"  >                       
+                    <input type="date" id="fecha" name="fecha" required >                       
                 </div>
                       
                 <div id="nota">
@@ -65,7 +65,7 @@
                     <textarea name="comentario"rows="5"cols="40">Escribetuconsulta...</textarea>
                 </div>
                 
-                <input id="boton" type="enviar"  onclick=" return enviarFormulario();" value = "Enviar">
+                <button type="submit" id="boton">Enviar</button>
                     
             </form>
         </div>
